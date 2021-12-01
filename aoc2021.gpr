@@ -1,0 +1,8 @@
+project AOC2021 is
+
+   for Languages use ("Ada");
+   for Source_Dirs use (".");
+   for Main use ("day1.adb");
+
+end AOC2021;
+
