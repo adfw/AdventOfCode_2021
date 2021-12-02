@@ -1,13 +1,11 @@
 with Ada.Text_IO;
 with Ada.Integer_Text_IO;
 
-
 procedure Day1
    with SPARK_Mode => On
 is
    -- Part 1
    Part_1_Increase_Count : Natural := 0;
-   subtype String_Length is Integer range 1 .. 10;
    Previous_Val : Integer;
    Current_Val  : Integer;
 
