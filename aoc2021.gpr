@@ -2,7 +2,7 @@ project AOC2021 is
 
    for Languages use ("Ada");
    for Source_Dirs use (".");
-   for Main use ("day1.adb", "day2.adb");
+   for Main use ("day1.adb", "day2.adb", "day3.adb");
 
 end AOC2021;
 
