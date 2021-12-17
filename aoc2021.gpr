@@ -2,7 +2,15 @@ project AOC2021 is
 
    for Languages use ("Ada");
    for Source_Dirs use (".");
-   for Main use ("day1.adb", "day2.adb", "day3.adb");
+   for Main use ("day1.adb", "day2.adb", "day3.adb", "day4.adb");
+
+   package Compiler is
+      for Switches ("ada") use ("-gnato13", "-gnatwa");
+   end Compiler;
+
+   package Prove is
+      for Proof_Switches ("ada") use ("--proof=progressive", "--level=2");
+   end Prove;
 
 end AOC2021;
 

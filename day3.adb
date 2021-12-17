@@ -1,7 +1,5 @@
 with Ada.Containers.Formal_Vectors;
 with Ada.Text_IO;
-with Ada.Strings.Unbounded;
-with Ada.Text_IO.Unbounded_IO;
  
 use type Ada.Containers.Count_Type;
 
